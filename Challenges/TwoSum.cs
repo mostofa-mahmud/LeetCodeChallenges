@@ -8,10 +8,10 @@ namespace LeetCodeChallenges.Challenges
 {
     public class Calculate
     {
-        /*public static void Print() {
+        public static void Print() {
 
-            Console.WriteLine("heloo");
-        }*/
+            Console.WriteLine("heloo Fahad, This is Two sum leetCode Problem!");
+        }
         public static int[] TwoSum(int[] nums, int target)
         {
             for (int i = 0; i < (nums.Length - 1); i++)
@@ -24,7 +24,7 @@ namespace LeetCodeChallenges.Challenges
                     }
                 }
             }
-            return new int[0];
+            return new int[] {};
         }
 
     }

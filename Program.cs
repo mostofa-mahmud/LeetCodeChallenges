@@ -11,13 +11,26 @@ namespace LeetCodeChallenges
     {
         static void Main(string[] args)
         {
+            //twosum
+            Calculate.Print();
+            int[] arrInput = { 3, 2, 1 };
+            int[] arrOutput= Calculate.TwoSum(arrInput, 3);
+            for (int i = 0; i < arrOutput.Length; i++)
+            {
+                Console.WriteLine(arrOutput[i]);
+            }
+            
 
-            //List<int> numbers = new List<int> {2, 7, 11, 15};
-            int[] numbers = { 2, 7, 11, 15};
-            int[] abc = Calculate.TwoSum(numbers,9);
-            Console.WriteLine(abc);
+
+
+
+
+
+
+
+
+
             Console.ReadLine();
-           
         }
     }
 }
